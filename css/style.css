@@ -5,3 +5,9 @@
   text-align: center;  /* align the inline(-block) elements horizontally */
   font: 0/0 a;         /* remove the gap between inline(-block) elements */
 }
+
+#jumbotron-one {
+    background-image: url("../orion.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
