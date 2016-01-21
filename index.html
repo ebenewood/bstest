@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src='js/bootstrap.min.js'></script>
+
+
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <title>orion</title>
   </head>
   <body>
     <div class="container">
-    <img class="jumbotron vertical-center" src="orion.gif" alt="stars orion" />
-    </div>
+      <div class="jumbotron">
+        <img src="orion.gif" alt="orion" />
+      </div>
+      <!-- <div class="btn-toolbar" role="toolbar" aria-label="..."> -->
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">home</button>
+          <button type="button" class="btn btn-default">about</button>
+          <div class="btn-group btn-group-lg" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">instructors<span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li>instructor1</li>
+                <li>instructor2</li>
+                <li>instructor3</li>
+              </ul>
+          </div>
+          <button type="button" class="btn btn-default">faq</button>
+          <button type="button" class="btn btn-default">register</button>
+          <button type="button" class="btn btn-default">contact</button>
+        </div>
+      </div>
+    <!-- </div> -->
   </body>
 </html>
