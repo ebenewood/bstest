@@ -1,33 +1,27 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script type="text/javascript" src='js/bootstrap.min.js'></script>
-<link rel="stylesheet" href="css/bootstrap.css" />
-  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <meta charset="utf-8">
+  <title>load demo</title>
+  <style>
+  body {
+    font-size: 12px;
+    font-family: Arial;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+<body>
 
-  <body>
-<div class="container">
-  <h2>Dropdowns</h2>
-  <p>The .dropdown class is used to indicate a dropdown menu.</p>
-  <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
-  <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>
-  <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
-  </div>
-</div>
+<b>Projects:</b>
+<p id="result"></p>
+
+<script>
+$( "#result" ).load( "index.html #container" );
+//can I do this back onto the page itself?//
+
+// $( "#new-projects" ).load( "/resources/load.html #projects li" );
+</script>
 
 </body>
-</html>
-
-
-  </body>
 </html>
