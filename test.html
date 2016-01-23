@@ -1,25 +1,27 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <script type="text/javascript" src="js/test.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-  <title>///|_???_|\\\</title>
-</head>
-<div class="container">
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script type="text/javascript" scr="js/test.js"></script> -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script language="javascript">
+$(function(){
+  $(".classloader").click(function(){
+    $("#content").load("inst.html");
+  });
+});
+</script>
 
-<b>Projects:</b>
-<div id="feeds">
-  
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p class="classloader">
+      object
 
-</div>
+    </p>
+    <div id="content">
+    </div>
 
-<!-- <script> $( "#feeds" ).load( "index.html" ); -->
-<!--can I do this back onto the page itself?//
 
-// $( "#new-projects" ).load( "/resources/load.html #projects li" );
-<!-- </script> -->
-</div>
-</body>
+  </body>
 </html>
