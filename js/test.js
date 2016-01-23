@@ -1,5 +1,6 @@
-$(function(){
-  $(".classloader").click(function(){
-    $("#contenthere").load("/includes/about-info.html");
+$(function() {
+  $(".but").on("click",function(e) {
+    e.preventDefault();
+    $("#content").load(this.id+".html");
   });
 });

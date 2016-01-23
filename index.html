@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="js/test.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript" src='js/bootstrap.min.js'></script>
-
-
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/test.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <title>orion</title>
@@ -15,28 +12,14 @@
           <h1>ACT</h1>
         </div>
           <div class="btn-group" role="group" aria-label="...">
-            <button type="button" class="btn btn-default">home</button>
-            <button type="button" class="btn btn-default">faq</button>
-            <a href="inst.html" type="button" class="btn btn-default">instructors</a>
-            <!-- <a href="inst.html" class="btn btn-default" role"button">instructors</a> -->
-            <!-- <div class="btn-group" role="group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">instructors<span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="inst1.html">instructor1</a></li>
-                  <li><a href="inst2.html">instructor2</a></li>
-                  <li><a href="inst3.html">instructor3</a></li>
-                </ul> -->
-            <!-- </div> -->
+            <button class="but btn btn-default" type="button" id="inst">home</button>
+            <button class="but btn btn-default" type="button" id="faq">faq</button>
+            <button class="but btn btn-default" type="button" id="inst">instructors</button>
+            <button class="but btn btn-default" type="button" id="register">register</button>
+            <button class="but btn btn-default" type="button" id="contact">contact</button>
+
 
             <div id="content">
             </div>
-<!-- <script>
-    $(function(){
-        $('a.pageFetcher').click(function(){
-            $('#zone').load($(this).attr('href'));
-        });
-    });
-</script> -->
-
     </body>
 </html>
