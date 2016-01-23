@@ -1,5 +1,5 @@
 $(function(){
   $(".classloader").click(function(){
-    $("#contenthere").load("/includes/about-info.html");
+    $("#content").load("inst.html");
   });
 });
